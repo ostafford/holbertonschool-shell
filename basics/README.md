@@ -14,5 +14,7 @@ the `cd ~` command changes the working directory to the user's home directory.
 	- the `$HOME` uses the variable environement method. eg `cd $HOME`.
 
 ## 3-listfiles 
-the `ls -l` comman will display current directory contents in a long format.
+the `ls -l` command will display current directory contents in a long format.
 
+## 4-listmorefiles
+the `ls -la` command will display current directory contents, including hidden files (starting with `.` ). Use the long format.
