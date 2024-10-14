@@ -13,3 +13,6 @@ the `cd ~` command changes the working directory to the user's home directory.
 	- the `~` character also represents the home directory. 
 	- the `$HOME` uses the variable environement method. eg `cd $HOME`.
 
+## 3-listfiles 
+the `ls -la` comman will display current directory contents in a long format.
+
