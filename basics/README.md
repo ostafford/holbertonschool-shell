@@ -7,3 +7,9 @@ the `pwd` command will prints the absolute path name of the current working dire
 
 ## 1-listit
 the `ls` command Display the contents list of your current directory.
+
+## 2-bring_me_home
+the `cd ~` command changes the working directory to the user's home directory.
+	- the `~` character also represents the home directory. 
+	- the `$HOME` uses the variable environement method. eg `cd $HOME`.
+
