@@ -18,3 +18,11 @@ the `ls -l` command will display current directory contents in a long format.
 
 ## 4-listmorefiles
 the `ls -la` command will display current directory contents, including hidden files (starting with `.` ). Use the long format.
+
+## 5-listfilesdigitonly
+the `ls -lna` command will showcase the following content.
+	- Long format `-l`
+	- User and group IDs displayed numerically `-n`
+	- Showcase hidden files (starting with '.') `-a`
+
+
