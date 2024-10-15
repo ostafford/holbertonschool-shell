@@ -38,5 +38,8 @@ the `mv` command wil move the file betty from /tmp/ to /tmp/my_first_directory.
 
 ## 8-firstdelete
 the `rm` command will allow you to delete a file.
-	- Command structure `rm [file/path]`
+	- Command structure `rm [.file/PATH]`
 
+## 9-firstdirdeletion
+the `rm -r` command will allow you to delete the directory of choice
+	- Command structure `rm -r [.file/PATH]
