@@ -43,3 +43,7 @@ the `rm` command will allow you to delete a file.
 ## 9-firstdirdeletion
 the `rm -r` command will allow you to delete the directory of choice
 	- Command structure `rm -r [.file/PATH]
+
+## 10-back
+the `cd -` command will bring you back to the previous working directory.
+	- For example `cd /destination_1` will bring you to the folder `destination_1` then if i run a new command `cd /destination_2/destination_3` then i would be in a different directory location to `destination_1`. That being said if i were to run `cd -` I'll be able to go back to my previous `pwd` which was `destination_1` instead of the standard `cd ..` which will just go back one file in the current PATH. 
