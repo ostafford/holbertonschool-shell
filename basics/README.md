@@ -34,6 +34,10 @@ the `mkdir -p ./tmp/my_first_directory` command will create a script that create
 
 ## 7-movethatfile
 the `mv` command wil move the file betty from /tmp/ to /tmp/my_first_directory.
-	- That being said the structure of the `mv` command follows as `mv file/PATH target/destination`
+	- That being said the structure of the `mv` command follows as `mv [file/PATH] [target/destination]`
 
-  
+## 8-firstdelete
+the `rm` command will allow you to delete a file.
+	- Command structure `rm [file/path]`
+
+
