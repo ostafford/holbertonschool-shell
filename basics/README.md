@@ -26,7 +26,10 @@ the `ls -lna` command will showcase the following content.
 	- Showcase hidden files (starting with '.') `-a`
 
 ## 6-firstdirectory
-the `mkdir` command is what creates the directory followed by the name of the directory (folder) and then you have a choice of choosing a location or create it in the current working directory. 
-	- eg. `mkdir folder_name /location/other/than/the/current` Plain english = "Make this folder name in this location"
+the `mkdir -p ./tmp/my_first_directory` command will create a script that creates a directory named my_first_directory in the /tmp/ directory
+	- `mkdir`	Make the directory command
+	- `-p`		Create intermediate directories as required.  If this option is not specified, the full path prefix of each operand must already exist.
+			Meaning that if the directories exist it will pass them however what doesn't exist will be created with the `-p` mode written in the command line.
+	- `./`		This is kind of like a `pwd`. essentially it specifies the current directory and will create the remainder of the path in the current directory.
 
-
+  
