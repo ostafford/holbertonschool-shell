@@ -32,4 +32,8 @@ the `mkdir -p ./tmp/my_first_directory` command will create a script that create
 			Meaning that if the directories exist it will pass them however what doesn't exist will be created with the `-p` mode written in the command line.
 	- `./`		This is kind of like a `pwd`. essentially it specifies the current directory and will create the remainder of the path in the current directory.
 
+## 7-movethatfile
+the `mv` command wil move the file betty from /tmp/ to /tmp/my_first_directory.
+	- That being said the structure of the `mv` command follows as `mv file/PATH target/destination`
+
   
