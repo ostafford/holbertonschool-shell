@@ -40,4 +40,3 @@ the `mv` command wil move the file betty from /tmp/ to /tmp/my_first_directory.
 the `rm` command will allow you to delete a file.
 	- Command structure `rm [file/path]`
 
-
