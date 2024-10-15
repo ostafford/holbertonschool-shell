@@ -25,4 +25,8 @@ the `ls -lna` command will showcase the following content.
 	- User and group IDs displayed numerically `-n`
 	- Showcase hidden files (starting with '.') `-a`
 
+## 6-firstdirectory
+the `mkdir` command is what creates the directory followed by the name of the directory (folder) and then you have a choice of choosing a location or create it in the current working directory. 
+	- eg. `mkdir folder_name /location/other/than/the/current` Plain english = "Make this folder name in this location"
+
 
