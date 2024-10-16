@@ -58,3 +58,7 @@ the `ls` command will list the files in the current directory that you are in. h
 the `file` command wil print the type of file that is executed in the command
 	- Command structure `file [file/PATH]`
 
+## 13-symbolic_link
+the `ln` command will create a link followed by what option is added to the line of code. 
+	- Command structure `ln -s [path/to/file/to/be/linked] [symlink_name]`
+	- For reference a symlink is like a hyperlink for your files and folders. For example if there was a file or folder that you commonly go to or use that is multiple files deep you can create a link to fast track yourself into the PATH.  
