@@ -54,4 +54,7 @@ the `ls` command will list the files in the current directory that you are in. h
 	- so in this case `l` indicated long format, `a` indicates files or folders that begin with a `.`
 	- `file/PATH` you can have mulitple PATHs when seperated with a space inbetween each other.
 
+## 12-file_type
+the `file` command wil print the type of file that is executed in the command
+	- Command structure `file [file/PATH]`
 
