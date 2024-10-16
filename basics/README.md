@@ -79,4 +79,12 @@ The `mv` command moves files and folder as we know. You can add **patterns** and
 ## 16-clean_emacs
 the `rm *~` command will deletes all files in the current working directory that end with the character `~`.
 
- 
+## 17-tree
+the `mkdir` command as we know will create the directory/folder however creating **nested* folders in the one command is possible with adding a space followed by the PATH.
+	- eg. `mkdir this/ this/is this/is/a this/is/a/nested/ this/is/a/nested/folder` which would result in this.  
+
+|  |  This
+|  |  is
+|  |  a
+|  |  nested
+|  |  folder 
