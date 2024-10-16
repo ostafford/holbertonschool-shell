@@ -50,7 +50,7 @@ the `cd -` command will bring you back to the previous working directory.
 
 ## 11-lists
 the `ls` command will list the files in the current directory that you are in. however there are further commands that can be used together is `ls`.
-	- `ls` command structure `ls [option] [color] [format] [file/PATH]
+	- `ls` command structure `ls [option] [color] [format] [file/PATH]`
 	- so in this case `l` indicated long format, `a` indicates files or folders that begin with a `.`
 	- `file/PATH` you can have mulitple PATHs when seperated with a space inbetween each other.
 
