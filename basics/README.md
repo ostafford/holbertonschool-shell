@@ -61,4 +61,8 @@ the `file` command wil print the type of file that is executed in the command
 ## 13-symbolic_link
 the `ln` command will create a link followed by what option is added to the line of code. 
 	- Command structure `ln -s [path/to/file/to/be/linked] [symlink_name]`
-	- For reference a symlink is like a hyperlink for your files and folders. For example if there was a file or folder that you commonly go to or use that is multiple files deep you can create a link to fast track yourself into the PATH.  
+	- For reference a symlink is like a hyperlink for your files and folders. For example if there was a file or folder that you commonly go to or use that is multiple files deep you can create a link to fast track yourself into the PATH. 
+
+## 14-copy_html
+the `cp` command is the copy command which allows you to copy files and or folders to different locations. 
+	- Command structure `cp [source file] [target file]` 
