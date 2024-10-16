@@ -46,4 +46,12 @@ the `rm -r` command will allow you to delete the directory of choice
 
 ## 10-back
 the `cd -` command will bring you back to the previous working directory.
-	- For example `cd /destination_1` will bring you to the folder `destination_1` then if i run a new command `cd /destination_2/destination_3` then i would be in a different directory location to `destination_1`. That being said if i were to run `cd -` I'll be able to go back to my previous `pwd` which was `destination_1` instead of the standard `cd ..` which will just go back one file in the current PATH. 
+	- For example `cd /destination_1` will bring you to the folder `destination_1` then if i run a new command `cd /destination_2/destination_3` then i would be in a different directory location to `destination_1`. That being said if i were to run `cd -` I'll be able to go back to my previous `pwd` which was `destination_1` instead of the standard `cd ..` which will just go back one file in the current PATH.
+
+## 11-lists
+the `ls` command will list the files in the current directory that you are in. however there are further commands that can be used together is `ls`.
+	- `ls` command structure `ls [option] [color] [format] [file/PATH]
+	- so in this case `l` indicated long format, `a` indicates files or folders that begin with a `.`
+	- `file/PATH` you can have mulitple PATHs when seperated with a space inbetween each other.
+
+
