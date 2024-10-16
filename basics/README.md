@@ -76,4 +76,7 @@ The `mv` command moves files and folder as we know. You can add **patterns** and
 		- Think of it as a **select all** tool.
 		- This also depends on where you place it in your command either before or after the range.
 
+## 16-clean_emacs
+the `rm *~` command will deletes all files in the current working directory that end with the character `~`.
+
  
