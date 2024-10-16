@@ -1,3 +1,3 @@
-#Holberton Shell Basics
+# Holberton School Basic Shell Project
 
-A repository of shell basics
+My personal basic shell project with added notes in the README.md file located in the basics/ directory. 

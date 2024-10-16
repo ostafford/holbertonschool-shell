@@ -65,4 +65,15 @@ the `ln` command will create a link followed by what option is added to the line
 
 ## 14-copy_html
 the `cp` command is the copy command which allows you to copy files and or folders to different locations. 
-	- Command structure `cp [source file] [target file]` 
+		- Command structure `cp [source file] [target file]`
+
+## 15-lets_move
+The `mv` command moves files and folder as we know. You can add **patterns** and **globbing** to select specfic files or folders.
+
+	- `[]` this allows you to specify a pattern or range of characters.
+		- eg. `[A-Z]` would select all uppercase letters from A to Z.
+	- `*` this is a wildcard that matches any sequence of characters including no characters. 
+		- Think of it as a **select all** tool.
+		- This also depends on where you place it in your command either before or after the range.
+
+ 
