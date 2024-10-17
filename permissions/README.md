@@ -9,8 +9,8 @@
 	- `whoami` ->  is the command that will print the current user.
 
 ## 2-groups
-	- `groups or id` -> will print the group of the current user that is logged in
-		`groups or id [user_name]`	-> will print the group that `user_name` is part of.
+	- `groups` -> will print the group of the current user that is logged in
+		`groups [user_name]`	-> will print the group that `user_name` is part of.
 
  
 
