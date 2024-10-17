@@ -54,7 +54,10 @@ Syntax Command Structure:\
 `chmod [object][operator][permission] file_name
 
 
-
+REFERENCE Mode:\
+`--reference` will allow you to copy another files permission.\
+Command Structure:\
+`chmod --reference=[reference_file] [destination_file]`
 
 
 
