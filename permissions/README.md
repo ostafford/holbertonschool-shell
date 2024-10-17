@@ -6,12 +6,18 @@
 		-> `su [user_name]`
 
 ## 1-who_am_i
-	- `whoami` ->  is the command that will print the current user.
+	- `whoami`	-> is the command that will print the current user.
 
 ## 2-groups
-	- `groups` -> will print the group of the current user that is logged in
+	- `groups`	-> will print the group of the current user that is logged in
 		`groups [user_name]`	-> will print the group that `user_name` is part of.
 
- 
+## 3-new_owner
+	- `chown`	-> will change the file owner and group
+	- Command structure
+		-> `chown [user_name:group_name] [file_name]`
+
+
+
 
 
