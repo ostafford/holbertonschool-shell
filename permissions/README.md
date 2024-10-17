@@ -17,6 +17,11 @@
 	- Command structure
 		-> `chown [user_name:group_name] [file_name]`
 
+## 4-empty
+	- `touch`	-> will create an empty file. It will also not open in a program either.
+	- Command Structure
+		-> `touch [file_name] (You can also add on the type eg. '.txt' '.md' '.html')
+
 
 
 
