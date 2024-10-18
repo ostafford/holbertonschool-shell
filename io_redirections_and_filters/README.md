@@ -168,13 +168,17 @@ Redirection *double* (`>>`)\
 - **Complete Command**
     - `rev`
 	
-## 22 
+## 22: ( `cut` )
 **Question**: Write a script that displays all users and their home directories, sorted by users.
 - Steps to break down:
     1. Display all users and their home directories
     2. Sort by users
-- Code Steps:
-    1.
-    2.
+- Code Structure: ***(Command -> Options -> Input File)***
+    1. `cut -d":" -f 1,6 /etc/passwd`
+		- Options
+			- `-d":"` -> 
+			- `-f 1,6` -> so cutting is pretty much like selecting the fields that you want to extract.
+    2. `sort`
+		- 
 - **Complete Command**
-	- 
+	- `cut -d":" -f 1,6 /etc/passwd`
