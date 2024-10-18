@@ -171,8 +171,8 @@ Redirection *double* (`>>`)\
 ## 22 
 **Question**: Write a script that displays all users and their home directories, sorted by users.
 - Steps to break down:
-    1.
-    2.
+    1. Display all users and their home directories
+    2. Sort by users
 - Code Steps:
     1.
     2.
