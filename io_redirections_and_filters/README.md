@@ -127,29 +127,29 @@ Redirection *double* (`>>`)\
 	-
 
 ## 18
-**Question**:
+**Question**: Display all lines of the file /etc/ssh/sshd_config starting with a letter.
 - Steps to break down:
-    1.
-    2.
+    1. Display all lines starting with a letter (A-Z)
+    2. Location /etc/ssh/sshd_config
 - Code Steps:
-    1.
-    2.
+    1. `grep [A-Za-z]`
+    2. `/etc/ssh/sshd_config`
 - **Complete Command**
-    -
+    - `grep [A-Za-z] /etc/ssh/sshd_config`
 
 ## 19
-**Question**:
+**Question**: Replace all characters A and c from input to Z and e respectively.
 - Steps to break down:
-    1.
-    2.
+    1. Input is "Ac"
+    2. Output is "Ze"
 - Code Steps:
-    1.
-    2.
+    1. `tr`
+    2. `"Ac" "Ze"`
 - **Complete Command**
-    -
+    - `tr "Ac" "Ze"`
 
 ## 20
-**Question**:
+**Question**: Create a script that removes all letters c and C from input.
 - Steps to break down:
     1.
     2.
@@ -160,7 +160,7 @@ Redirection *double* (`>>`)\
     -
 
 ## 21
-**Question**:
+**Question**: Write a script that reverse its input.
 - Steps to break down:
     1.
     2.
@@ -170,8 +170,8 @@ Redirection *double* (`>>`)\
 - **Complete Command**
     -
 	
-## 22
-**Question**:
+## 22 
+**Question**: Write a script that displays all users and their home directories, sorted by users.
 - Steps to break down:
     1.
     2.
