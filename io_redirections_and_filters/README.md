@@ -151,13 +151,13 @@ Redirection *double* (`>>`)\
 ## 20
 **Question**: Create a script that removes all letters c and C from input.
 - Steps to break down:
-    1.
-    2.
+    1. Select the input
+    2. Remove C and c
 - Code Steps:
-    1.
-    2.
+    1. `grep`
+    2. `-d [C,c]`
 - **Complete Command**
-    -
+    - `grep -d [C,c]`
 
 ## 21
 **Question**: Write a script that reverse its input.
