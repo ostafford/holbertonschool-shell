@@ -9,9 +9,17 @@
 
 ## 4-lastlines
 `tail`	- display the last part of a file.\
-	- That being said the `-n` option will allow you to set the number of lines that you want to view.
+	- That being said the `-n` option will allow you to set the number of lines that you want to view. **Understand that the last line is considered line 1 instead of the last line**
 
 ## 5-firstlines
 `head`	- Will do the same as `tail` but for the beginning of the file.
+
+## 6-third_line
+`|`	- The pipe allows you to take the output of one command and pass it as input to another command\
+	- eg. syntax `head -n 3 file_name | tail -n 1`\
+		- `head -n 3` is like flipping to the first 3 pages of a book.\
+		- `tail -n 1` then says, "Give me the last page of these 3 pages."
+
+##
 
   
