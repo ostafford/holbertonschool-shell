@@ -28,5 +28,7 @@ Redirection (`>`)	- **The "Redirection"** will pass the *output* before it and w
 		- `echo "..."` is the command to print/display your text/string\
 		- `>` will redirect that command into the file "file_name.txt"
 
- 
+## 8-cwd_state
+	- This is an extension from tasks 6 and 7. I realized that you can run a command and directly redirect its output into a file without needing an additional step to "print" or "write." Using redirection allows you to input the output results straight into a file.
+
   
