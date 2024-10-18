@@ -81,4 +81,16 @@ Redirection *double* (`>>`)\
 		- `-u` *(Only output lines that are not repeated in the input)*
 - **Complete Command**
 		- `sort | uniq -u`
-   
+
+## 14-findthatword
+**Question**: Display lines containing the pattern "root" from the file /etc/passwd
+- Steps to break down:
+	1. Display lines containing *the pattern* "root"
+	2. Location `/etc/passwd
+- Code Command:
+	1. `grep "root"`
+	2. `/etc/passwd`
+- **Complete Command**
+	- `grep "root" /etc/passwd`
+
+ 
