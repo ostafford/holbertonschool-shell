@@ -104,5 +104,15 @@ Redirection *double* (`>>`)\
 - **Complete Command**
 	- `grep -c "bin" /etc/passwd`
 
+## 16-whatsnext
+**Questions**: Display lines containing the pattern "root" and 3 lines after them in the file /etc/passwd
+- Steps to break down:
+	1. Display pattern "root" and *3 lines after* 
+	2. Location `/etc/passwd`
+- Code Steps:
+	1. `grep -A "root"`
+	2. `/etc/passwd`
+- **Complete Command**
+	- `grep -A "root" /etc/passwd`
 
 
