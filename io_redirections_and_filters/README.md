@@ -162,13 +162,11 @@ Redirection *double* (`>>`)\
 ## 21
 **Question**: Write a script that reverse its input.
 - Steps to break down:
-    1.
-    2.
+    1. Reverse the input
 - Code Steps:
-    1.
-    2.
+    1. `rev`
 - **Complete Command**
-    -
+    - `rev`
 	
 ## 22 
 **Question**: Write a script that displays all users and their home directories, sorted by users.
