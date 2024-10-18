@@ -55,7 +55,19 @@ Redirection *double* (`>>`)\
 - "Word Count" It is a command-line utility used to count various statistics from input text (*Lines, Words, Bytes(characters)*)
 
 	-  **Command Structure** *( Command -> Option -> File )*
-        - Example: `find ./* -type d -print | wc -l`
-                - Command: `wc` the count command
-                - Option: `-l` Lines
-                - File: `file_name or input from a pipe`  
+	- Example: `find ./* -type d -print | wc -l`
+		- Command: `wc` the count command
+		- Option: `-l` Lines
+		- File: `file_name or input from a pipe`
+
+## 12-newest_files
+**Question**: Create a script that displays the 10 newest files in the current directory.
+	- Steps to break down:
+		1. Display list/files of current directory
+		2. Display the 10 newest
+	- Code command:
+		i. `ls -l` 
+		ii. `head -n 10`
+		iii. `ls -l | head -n 10`
+
+  
