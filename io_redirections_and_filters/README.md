@@ -11,4 +11,7 @@
 `tail`	- display the last part of a file.\
 	- That being said the `-n` option will allow you to set the number of lines that you want to view.
 
- 
+## 5-firstlines
+`head`	- Will do the same as `tail` but for the beginning of the file.
+
+  
