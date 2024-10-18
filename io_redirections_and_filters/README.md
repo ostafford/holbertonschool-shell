@@ -86,11 +86,23 @@ Redirection *double* (`>>`)\
 **Question**: Display lines containing the pattern "root" from the file /etc/passwd
 - Steps to break down:
 	1. Display lines containing *the pattern* "root"
-	2. Location `/etc/passwd
+	2. Location `/etc/passwd`
 - Code Command:
 	1. `grep "root"`
 	2. `/etc/passwd`
 - **Complete Command**
 	- `grep "root" /etc/passwd`
 
- 
+## 15-countthatword
+**Question**: Displat the number of lines that contain the pattern "bin" in the file /etc/passwd
+- Steps to break down:
+	1. Display the number of lines with pattern "bin"
+	2. location `/etc/passwd`
+- Code Steps:
+	1. `grep -c "bin"'
+	2. `/etc/passwd`
+- **Complete Command**
+	- `grep -c "bin" /etc/passwd`
+
+
+
