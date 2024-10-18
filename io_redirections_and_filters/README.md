@@ -62,23 +62,23 @@ Redirection *double* (`>>`)\
 
 ## 12-newest_files
 **Question**: Create a script that displays the 10 newest files in the current directory.
-	- Steps to break down:
+- Steps to break down:
 	1. Display list/files of current directory
 	2. Display the 10 newest
-	- Code command:
+- Code command:
 	1. `ls -l` 
 	2. `head -n 10`
 	3. `ls -l | head -n 10`
 
-## 13-unique `sort` `uniq`
+## 13-unique `'sort'` `'uniq'`
 **Question**: Create a script that takes a list of words as input and prints only words that appear exactly once.
-	- Steps to break down:
+- Steps to break down:
 	1. read a list of words in a file
 	2. print only words that appear **exactly** once
-	- Code Command:
+- Code Command:
 	1. `sort` *(The sort utility sorts text and binary files by lines.)*
 	2. `uniq -u` *(report or filter out repeated lines in a file)*
 		- `-u` *(Only output lines that are not repeated in the input)*
-	- **Complete Command**
+- **Complete Command**
 		- `sort | uniq -u`
    
