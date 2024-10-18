@@ -34,12 +34,12 @@ Redirection *double* (`>>`)\
 - Double Redirection (>>) functions similarly to single redirection (>), but instead of overwriting the existing content of a file, it appends or adds new output to the end of the file.
 
 
-## 8-cwd_state
+## 9-duplicate-last-line (append/add)
 - This is an extension from tasks 6 and 7. I realized that you can run a command and directly redirect its output into a file without needing an additional step to "print" or "write." Using redirection allows you to input the output results straight into a file.
 	- *eg.* `ls -la > file_name.txt` would essentially print out the results in the *file_name.txt* file directly./
 	*(remember that the single `>` will overwrite the content in the file if any and the `>>` will append (add) the output to the file.)*
 
-## 9-Duplicate_last_line
+## 10-Duplicate_last_line
 `find`
 - Is a search tool specifically for the command line. It searches through the directory hierarchy (the structure of folders and subfolders) based on the criteria you give it, like file names, types, or sizes.
 
@@ -50,11 +50,12 @@ Redirection *double* (`>>`)\
     		- Criteria: `-name '*.log'` (log files)
     		- Action: `-delete` (deletes each found file)
 
+## 11-directories
+`wc`
+- "Word Count" It is a command-line utility used to count various statistics from input text (*Lines, Words, Bytes(characters)*)
 
-
-
-
-
-
-
-  
+	-  **Command Structure** *( Command -> Option -> File )*
+        - Example: `find ./* -type d -print | wc -l`
+                - Command: `wc` the count command
+                - Option: `-l` Lines
+                - File: `file_name or input from a pipe`  
