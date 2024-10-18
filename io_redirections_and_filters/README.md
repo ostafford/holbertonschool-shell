@@ -115,4 +115,65 @@ Redirection *double* (`>>`)\
 - **Complete Command**
 	- `grep -A "root" /etc/passwd`
 
+## 17-hidethisword
+**Question**:
+- Steps to break down:
+	1.
+	2.
+- Code Steps:
+	1.
+	2.
+- **Complete Command**
+	-
 
+## 18
+**Question**:
+- Steps to break down:
+        1.
+        2.
+- Code Steps:
+        1.
+        2.
+- **Complete Command**
+        -
+
+## 19
+**Question**:
+- Steps to break down:
+        1.
+        2.
+- Code Steps:
+        1.
+        2.
+- **Complete Command**
+        -
+## 20
+**Question**:
+- Steps to break down:
+        1.
+        2.
+- Code Steps:
+        1.
+        2.
+- **Complete Command**
+        -
+## 21
+**Question**:
+- Steps to break down:
+        1.
+        2.
+- Code Steps:
+        1.
+        2.
+- **Complete Command**
+        -
+## 22
+**Question**:
+- Steps to break down:
+        1.
+        2.
+- Code Steps:
+        1.
+        2.
+- **Complete Command**
+	- 
