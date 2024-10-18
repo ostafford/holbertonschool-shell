@@ -15,11 +15,18 @@
 `head`	- Will do the same as `tail` but for the beginning of the file.
 
 ## 6-third_line
-`|`	- The pipe allows you to take the output of one command and pass it as input to another command\
-	- eg. syntax `head -n 3 file_name | tail -n 1`\
+Pipe (`|`)	- The pipe allows you to take the output of one command and pass it as input to another command\
+	- *eg.* syntax structure `head -n 3 file_name | tail -n 1`\
 		- `head -n 3` is like flipping to the first 3 pages of a book.\
 		- `tail -n 1` then says, "Give me the last page of these 3 pages."
 
-##
+## 7-file
+Redirection (`>`)	- **The "Redirection"** will pass the *output* before it and write it into the file.\
+	- When using **redirection**, it's important to remember that the output will always go to a file and not another command.\
+	- To connect or chain multiple commands, use the *pipe* (`|`) operator.\
+	- *eg.* syntax structure `echo "Content of the file goes here" > file_name.txt`\
+		- `echo "..."` is the command to print/display your text/string\
+		- `>` will redirect that command into the file "file_name.txt"
 
+ 
   
