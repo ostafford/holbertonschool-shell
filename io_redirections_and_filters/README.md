@@ -35,6 +35,26 @@ Redirection *double* (`>>`)\
 
 
 ## 8-cwd_state
-	- This is an extension from tasks 6 and 7. I realized that you can run a command and directly redirect its output into a file without needing an additional step to "print" or "write." Using redirection allows you to input the output results straight into a file.
+- This is an extension from tasks 6 and 7. I realized that you can run a command and directly redirect its output into a file without needing an additional step to "print" or "write." Using redirection allows you to input the output results straight into a file.
+	- *eg.* `ls -la > file_name.txt` would essentially print out the results in the *file_name.txt* file directly./
+	*(remember that the single `>` will overwrite the content in the file if any and the `>>` will append (add) the output to the file.)*
+
+##9-Duplicate_last_line
+`find`
+- Is a search tool specifically for the command line. It searches through the directory hierarchy (the structure of folders and subfolders) based on the criteria you give it, like file names, types, or sizes.
+
+	-  **Command Structure** *(Command -> Location -> Criteria -> Action)*
+	- Example: `find /location -name '*.log' -delete`
+   		- Command: `find` (search)
+   		- Location: `/home/user`
+    		- Criteria: `-name '*.log'` (log files)
+    		- Action: `-delete` (deletes each found file)
+
+
+
+
+
+
+
 
   
