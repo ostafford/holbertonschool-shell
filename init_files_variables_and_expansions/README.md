@@ -102,20 +102,29 @@ Name: `Best` Value: `School`
     1. `name`
     2. `value`
 - ***Final Command***
-	- `global_name="value"`
+	- `export global_name="value"`
 
-## 08: ( `` )
+## 08: ( `Arithmetic_Expansion` | `Command_Substitution` )
 **Question**: Write a script that prints the result of the addition of 128 with the value stored in the environment variable `TRUEKNOWLEDGE`, followed by a new line.
 - Steps to break down:
-    1. 
-    2. 
-- Code Structure: ***()***
-    1. ``
-    2. ``
+    1. Print the result
+    2. Variable name is `TRUEKNOWLEDGE` and value is `128`
+- Code Structure:
+    1. Print (`echo`)
+    2. Command Substitution (`$(...)`) [Allows you to write a command inside the `(...)`]
+    3. Arithmetic Expansion (`$((...))`) [Double `((...))` allows you to perform maths]
+    4. Variable (`$VARIABLE_NAME`)
+    5. Addition Operation (`+128`)
 - ***Final Command***
-	- ``
+	- `echo $(($TRUEKNOWLEDGE+128))`
+- ***Plain English***
+    - echo will print the following:\
+    The Command Substitute `$(...)` allows a command to be executed inside the `()`.\
+    In this situation we have double parentheses `((...))` which becomes arithmetic expansion aka "maths".\
+    The `$TRUEKNOWLEDGE` refers to a *variable* (not creates it). The `$` before the variable name tells the shell to use the value stored in the `TRUEKNOWLEDGE` variable.\
+    Finally, the `+` is adding `128` to the value of `$TRUEKNOWLEDGE`.
 
-## 09: ( `` )
+## 09: ( `Arithmetic_Expansion` )
 **Question**: Write a script that prints the result of `POWER` divided by `DIVIDE`, followed by a new line.
 
 `POWER` and `DIVIDE` are environment variables
@@ -126,7 +135,7 @@ Name: `Best` Value: `School`
     1. ``
     2. ``
 - ***Final Command***
-	- ``
+	- `echo $((POWER/DIVIDE))`
 
 ## 10: ( `` )
 **Question**: Write a script that displays the result of `BREATH` to the power `LOVE`
