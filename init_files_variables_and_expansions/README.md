@@ -11,86 +11,98 @@
 - ***Final Command***
 	- `alias ls='rm *'`
 
-## 01: ( `printenv` | `$ENVIRONMENT_VARIABLE` )
+## 01: ( `'printenv'` | `'$ENVIRONMENT_VARIABLE'` )
 **Question**: Create a script that prints `hello user`, where user is the current Linux user.
 - Steps to break down:
     1. Print `hello user`
     2. Current user
-- Code Structure: ***(command -> )***
+- Code Structure: ***(COMMAND_NAME -> )***
     1. `echo "hello_  "`
     2. `$ENVIRONMENT_VARIABLE`
 - ***Final Command***
 	- `echo "hello $USER"`
 
-## 02: ( `export`  )
+## 02: ( `'$'` | `':'` | `'variables'`  )
 **Question**: Add `/action` to the `PATH`. `/action` should be the last directory the shell looks into when looking for a program.
 - Steps to break down:
-    1. 
-    2. 
-- Code Structure: ***()***
-    1. ``
-    2. ``
+    1. Add directory (`/action`)
+    2. to `PATH` (Last directory)
+- Code Structure:\
+    1. Variable (`PATH`)
+    2. Operator (`=`)
+    3. Current Value (`$PATH`)
+    4. Seperator (`:`)
+    5. New_Location/Directory (`/file_name`)
 - ***Final Command***
-	- ``
+	- `PATH=$PATH:/action`
+- ***Plain English***
+    - The `PATH` value is set to the current value $PATH, appending(adding) a new directory by including the separator (`:`).
 
-## 03: ( `` )
+## 03: ( `arguments` )
 **Question**: Create a script that counts the number of directories in the `PATH`.
 - Steps to break down:
-    1. 
-    2. 
-- Code Structure: ***()***
-    1. ``
-    2. ``
+    1. Create list of directories from `PATH`
+    2. Count the list of lines
+- Code Structure:\
+    1. Variable Output (`echo $PATH`)
+    2. Pipe (`|`)
+    3. Translate (`tr`)\
+        `":" "\n"` (Options)"translates" the directories that are seperated with colons on a newline. (list view)
+    4. Pipe (`|`)
+    5. Count Lines (`wc -l`)
 - ***Final Command***
-	- ``
+	- `echo $PATH | tr ":" "\n" | wc -l`
+***Plain English***
+- `echo $PATH` will print the current `$PATH` in a list that is seperated with a colon`":"`. That output is then passed through the pipe to the translator `tr` which the *arguments* (`":" "\n"`) to replace every colon with a new line `"\n"`. That output is now in a downward list format which then gets passed through another pipe to `wc -l` which counts the number of directories in the `$PATH`. 
 
-## 04: ( `` )
+## 04: ( `printenv` )
 **Question**: Create a script that lists environment variables.
 - Steps to break down:
-    1. 
+    1. Run command
     2. 
 - Code Structure: ***()***
-    1. ``
+    1. `printenv`
     2. ``
 - ***Final Command***
-	- ``
+	- `printenv`
 
-## 05: ( `` )
+## 05: ( `set` )
 **Question**: Create a script that lists all local variables and environment variables, and functions.
 - Steps to break down:
-    1. 
+    1. print all lists
     2. 
 - Code Structure: ***()***
-    1. ``
+    1. `set`
     2. ``
 - ***Final Command***
-	- ``
+	- `set`
 
-## 06: ( `` )
+## 06: ( `create_local_variable` | `export` )
 **Question**: Create a script that creates a new local variable.
 
 Name: `BEST` Value: `School`
 - Steps to break down:
-    1. 
-    2. 
-- Code Structure: ***()***
-    1. ``
-    2. ``
+    1. Set variable name
+    2. assign variable value
+- Code Structure:\
+    1. Export attribute for variable (`export`)
+    2. Variable name (`variable_name`)
+    3. Variable value (`"variable_value"`)
 - ***Final Command***
-	- ``
+	- `export name="value"`
 
-## 07: ( `` )
+## 07: ( `global_variable` )
 **Question**: Create a script that creates a new global variable.
 
 Name: `Best` Value: `School`
 - Steps to break down:
-    1. 
+    1. global scope variable creation
     2. 
 - Code Structure: ***()***
-    1. ``
-    2. ``
+    1. `name`
+    2. `value`
 - ***Final Command***
-	- ``
+	- `global_name="value"`
 
 ## 08: ( `` )
 **Question**: Write a script that prints the result of the addition of 128 with the value stored in the environment variable `TRUEKNOWLEDGE`, followed by a new line.
@@ -202,7 +214,7 @@ The script should display the number in base 16, followed by a new line
 Used to create shortcuts(nicknames) for long form commands.\
 Allows you to assign custom command or modify an existing command.
 - `ls` (`[name]`):\
-This is the [name] of the alias that is being created.\
+This is the `[name]` of the alias that is being created.\
 `ls` is a default used command however in this example we are changing its `[=value]`
 - `=`:\
 This is the ***assignment operator*** that links the `[name]` to the command `[=value]`
@@ -223,7 +235,7 @@ This is the ***new command*** you're assigning to the alias `[name]`
 #### Example
 - `echo "Hello World"`\
 ~/ Hello World
-- `echo "Hello $USER"`\
+- `echo "Hello $USER"`(`$ENVIRONMENT_VARIABLE`)\
 ~/ Hello John
 #### Breakdown
 - `echo`:\
