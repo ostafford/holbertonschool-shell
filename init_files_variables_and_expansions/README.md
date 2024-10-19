@@ -11,18 +11,18 @@
 - ***Final Command***
 	- `alias ls='rm *'`
 
-## 01: ( `` )
+## 01: ( `printenv` | `$ENVIRONMENT_VARIABLE` )
 **Question**: Create a script that prints `hello user`, where user is the current Linux user.
 - Steps to break down:
-    1. 
-    2. 
-- Code Structure: ***()***
-    1. ``
-    2. ``
+    1. Print `hello user`
+    2. Current user
+- Code Structure: ***(command -> )***
+    1. `echo "hello_  "`
+    2. `$ENVIRONMENT_VARIABLE`
 - ***Final Command***
-	- ``
+	- `echo "hello $USER"`
 
-## 02: ( `` )
+## 02: ( `export`  )
 **Question**: Add `/action` to the `PATH`. `/action` should be the last directory the shell looks into when looking for a program.
 - Steps to break down:
     1. 
@@ -188,3 +188,158 @@ The script should display the number in base 16, followed by a new line
 - ***Final Command***
 	- ``
 
+
+# Command List
+
+### `'alias'`
+#### Structure
+- Command -> Option -> Name -> Assignment_Operator(=) -> New_command
+- `alias [option] [name[=value]]`
+#### Example
+- `alias ls='rm *'`
+#### Breakdown
+- `alias`:\
+Used to create shortcuts(nicknames) for long form commands.\
+Allows you to assign custom command or modify an existing command.
+- `ls` (`[name]`):\
+This is the [name] of the alias that is being created.\
+`ls` is a default used command however in this example we are changing its `[=value]`
+- `=`:\
+This is the ***assignment operator*** that links the `[name]` to the command `[=value]`
+- `rm *` (`[=value]`):\
+This is the ***new command*** you're assigning to the alias `[name]`
+
+#### Plain English
+- `ls` is still called `ls` however it now has the value of deleting files instead of listing them.
+#### Reference
+- https://linuxcommand.org/lc3_man_pages/aliash.html
+- https://ss64.com/bash/alias.html
+
+
+### `'echo'`
+#### Structure
+- Command -> Option -> String
+- `echo [option] [string]`
+#### Example
+- `echo "Hello World"`\
+~/ Hello World
+- `echo "Hello $USER"`\
+~/ Hello John
+#### Breakdown
+- `echo`:\
+The command to ***print*** text or ***standard output***
+- `"..."` (string):\
+This is the ***argument*** that is ***passed*** to the `echo` command.\
+It is enclosed in double quotes which will treat it as a single string that may contain ***variables***
+- 
+#### Plain English
+#### Reference
+- https://linuxcommand.org/lc3_man_pages/echoh.html
+- https://ss64.com/bash/echo.html
+
+
+
+### `'command_name'`
+#### Structure
+#### Example
+#### Breakdown
+#### Plain English
+#### Reference
+
+### `'command_name'`
+#### Structure
+#### Example
+#### Breakdown
+#### Plain English
+#### Reference
+
+### `'command_name'`
+#### Structure
+#### Example
+#### Breakdown
+#### Plain English
+#### Reference
+
+### `'command_name'`
+#### Structure
+#### Example
+#### Breakdown
+#### Plain English
+#### Reference
+
+### `'command_name'`
+#### Structure
+#### Example
+#### Breakdown
+#### Plain English
+#### Reference
+
+### `'command_name'`
+#### Structure
+#### Example
+#### Breakdown
+#### Plain English
+#### Reference
+
+### `'command_name'`
+#### Structure
+#### Example
+#### Breakdown
+#### Plain English
+#### Reference
+
+### `'command_name'`
+#### Structure
+#### Example
+#### Breakdown
+#### Plain English
+#### Reference
+
+### `'command_name'`
+#### Structure
+#### Example
+#### Breakdown
+#### Plain English
+#### Reference
+
+### `'command_name'`
+#### Structure
+#### Example
+#### Breakdown
+#### Plain English
+#### Reference
+
+### `'command_name'`
+#### Structure
+#### Example
+#### Breakdown
+#### Plain English
+#### Reference
+
+### `'command_name'`
+#### Structure
+#### Example
+#### Breakdown
+#### Plain English
+#### Reference
+
+### `'command_name'`
+#### Structure
+#### Example
+#### Breakdown
+#### Plain English
+#### Reference
+
+### `'command_name'`
+#### Structure
+#### Example
+#### Breakdown
+#### Plain English
+#### Reference
+
+### `'command_name'`
+#### Structure
+#### Example
+#### Breakdown
+#### Plain English
+#### Reference
