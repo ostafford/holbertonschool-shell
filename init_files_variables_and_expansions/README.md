@@ -38,7 +38,7 @@
 - ***Plain English***
     - The `PATH` value is set to the current value $PATH, appending(adding) a new directory by including the separator (`:`).
 
-## 03: ( `arguments` )
+## 03: ( `arguments` `delimiter` )
 **Question**: Create a script that counts the number of directories in the `PATH`.
 - Steps to break down:
     1. Create list of directories from `PATH`
@@ -149,23 +149,32 @@ The script should display the result, followed by a new line.
     1. ``
     2. ``
 - ***Final Command***
-	- ``
+	- `echo $(($BREATH**LOVE))`
 
-## 11: ( `` )
+## 11: ( `base_n` `binary` `#` )
 **Question**: Write a script that converts a number from base 2 to base 10.
 
 The number in base 2 is stored in the environment variable `BINARY`\
 The script should display the number in base 10, followed by a new line
-- Steps to break down:
-    1. 
-    2. 
-- Code Structure: ***()***
-    1. ``
-    2. ``
+- Steps to break down: (INPUT -> OPERATION -> OUTPUT)
+    1. `$BINARY` holds the value (input)
+    2. convert `BINARY` to base 10 (operation)
+    3. print base 10 number (output)
+- Code Structure:
+    1. Print result (`echo`)
+    2. conversion of mathimatical operations 'aarithmetic expansion' (`$((...))`)
+    3. define the 'base number'(`base_number#`) (`2#`)
+    4. Variable denoted by the `$` symbol. (`$BINARY`)\
+    **NOTE**\
+    *Bash by default converts base number of choice to `10#` (base 10).*
 - ***Final Command***
-	- ``
+	- `echo "$((2#$BINARY))"`
 
-## 12: ( `` )
+### Reference
+- https://en.wikibooks.org/wiki/Bash_Shell_Scripting/Index_of_Symbols
+
+
+## 12: ( `{..}` `tr ' ' '\n'` `grep -v` )
 **Question**: Create a script that prints all possible combinations of two letters, except `oo`.
 
 Letters are lower cases, from `a` to `z`\
@@ -176,13 +185,17 @@ Your script file should contain maximum 64 characters
 - Steps to break down:
     1. 
     2. 
-- Code Structure: ***()***
-    1. ``
-    2. ``
+- Code Structure: ***(Generate (input) -> Convert/Operation -> Output )***
+    1. `{..}`(extended brace expansion)
+    2. `tr ' ' '\n'` (translate or *replace* characters)\
+    (`' '` This represents a space)\
+    (`'\n'` This represents a new line)
+    3. `grep -v oo` (Search for patterns from *input*) \
+    (`-v` This *option* invert the match meaning **NOT** to include it if matched.)
 - ***Final Command***
-	- ``
+	- `echo {a..z}{a..z} | tr ' ' '\n' | grep -v oo`
 
-## 13: ( `` )
+## 13: ( `printf` `%.#f` )
 **Question**: Write a script that prints a number with two decimal places, followed by a new line.
 
 The number will be stored in the environment variable `NUM`.
@@ -194,8 +207,10 @@ The number will be stored in the environment variable `NUM`.
     2. ``
 - ***Final Command***
 	- ``
+#### Reference
+- https://ehoneahobed.hashnode.dev/bash-script-that-prints-a-number-with-two-decimal-places
 
-## 14: ( `` )
+## 14: ( `printf` `x#` `hexadecimal` )
 **Question**: Write a script that converts a number from base 10 to base 16.
 
 The number in base 10 is stored in the environment variable `DECIMAL`\
@@ -208,6 +223,10 @@ The script should display the number in base 16, followed by a new line
     2. ``
 - ***Final Command***
 	- ``
+
+### Reference
+- https://www.ibm.com/docs/en/i/7.5?topic=output-printf
+
 
 
 # Command List

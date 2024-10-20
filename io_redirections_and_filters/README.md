@@ -94,7 +94,7 @@ Redirection *double* (`>>`)\
 	- `grep "root" /etc/passwd`
 
 ## 15-countthatword
-**Question**: Displat the number of lines that contain the pattern "bin" in the file /etc/passwd
+**Question**: Display the number of lines that contain the pattern "bin" in the file /etc/passwd
 - Steps to break down:
 	1. Display the number of lines with pattern "bin"
 	2. location `/etc/passwd`
